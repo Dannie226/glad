@@ -1,7 +1,11 @@
 project "GLAD"
-    kind "StaticLibrary"
+    kind "StaticLib"
     language "C"
 
     files {
         "src/*.c"
+    }
+
+    includedirs {
+        "include/"
     }
